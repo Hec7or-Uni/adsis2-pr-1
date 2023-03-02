@@ -2,11 +2,40 @@
 
 ## Resumen
 
-## Pasos
+## Configuración
 
-### Paso 1
+### name
 
-### Paso 2
+```
+vi /etc/myname
+```
+
+### Red
+
+#### Gateway
+
+```
+vi /etc/mygate
+```
+
+#### hostname.vio0
+
+```
+-inet6
+up
+```
+
+#### hostname.vlan799
+
+```
+inet6 -soii -temporary
+```
+
+#### Slaac Service
+
+```
+doas rcctl enable slaacd
+```
 
 ## Referencias
 
